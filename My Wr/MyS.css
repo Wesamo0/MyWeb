@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",serif;
+}
+
+body {
+    background-color: #222831;
+}
+
+
+.title {
+    top: 0;
+    left: 0;
+    padding-left: 450px;
+    height: 100px;
+    width: 100%;
+    color: #eeeeee;
+    font-size: xx-large;
+}
+.title:hover {
+    color: #00adb5;
+}
+
+.logo   {
+    top: 0;
+    left: 0;
+    padding-left: 600px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.navigation a:hover {
+    color: #00adb5;
+}
+
+hr {
+    opacity: 10%;
+}
+
+.homePage ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+.homePage a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.homePage a:hover {
+    color: #00adb5;
+}
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin: -90px;
+    height: -1px;
+}
+.textTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 3rem;
+}
+.aboutMePar {
+    color: #eeeeee;
+    font-size: xx-large;
+}
+.textKoll {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+}
+.textMall {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin:  auto;
+}
+.pBlog {
+    font-size: xx-large;
+    color: #eeeeee;
+    margin: auto;
+}
+
+.textNt {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+}
+.textNw {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin:  auto;
+}
+.textNs {
+    color: #eeeeee;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 60px;
+    align-items: center;
+    max-width: 1200px;
+}
+.programs ul {
+    max-width: 700px;
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+}
+.programs a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.programs a:hover {
+    color: #00adb5;
+}
+.titleCar {
+      color: #e53935;
+      text-align: center;
+    }
+    .contentCar {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .duration {
+      font-weight: bold;
+      color: #388e3c;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+    }
+
+     .titleFlx {
+      color: #6a1b9a;
+      text-align: center;
+    }
+    .contentFlx {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10x;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .duration {
+      font-weight: bold;
+      color: #2e7d32;
+    }
+    .video {
+      margin-top: 30px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+    }
+
+     .titleStr {
+      color: #21c229;
+      text-align: center;
+    }
+    .contentStr {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .duration {
+      font-weight: bold;
+      color: #1976d2;
+    }
+    .video {
+      margin-top: 30px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .section {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease-in-out;
+      position: relative;
+    }
+
+    .Fpt {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    h2 i {
+      margin-left: 10px;
+      color: #27ae60;
+    }
+
+    .Fp {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    /* كلاس خاص للفقرة الأولى */
+    .protein-guide {
+      border-right: 5px solid #27ae60;
+    }
+
+    .protein-guide h2 i {
+      color: #27ae60;
+    }
+
+    /* كلاس خاص للفقرة الثانية */
+    .injury-prevention {
+      border-right: 5px solid #e67e22;
+    }
+
+    .injury-prevention h2 i {
+      color: #e67e22;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fitness-section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    .fitness-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 12px;
+    }
+
+    .fitness-paragraph {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .food ul {
+    max-width: 700px;
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+}
+.food a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.food a:hover {
+    color: #00adb5;
+}
+
+.muscle-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .muscle-title {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .muscle-section {
+      margin-bottom: 25px;
+    }
+
+    .muscle-section p {
+      margin: 0 0 10px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    .meal-title {
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    .meal-list {
+      list-style: disc;
+      padding-right: 20px;
+      margin: 0;
+    }
+
+    .meal-list li {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .weight-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .weight-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 25px;
+    }
+
+    .weight-section {
+      margin-bottom: 20px;
+    }
+
+    .weight-section p {
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
+    .weight-meal-title {
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    .weight-meal-list {
+      list-style-type: disc;
+      padding-right: 20px;
+      margin: 0;
+    }
+
+    .weight-meal-list li {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .healthy-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .healthy-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 25px;
+    }
+
+    .healthy-recipe {
+      margin-bottom: 30px;
+    }
+
+    .healthy-recipe-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #34495e;
+    }
+
+    .healthy-ingredients-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    .healthy-ingredients-list {
+      list-style: disc;
+      padding-right: 20px;
+      margin: 0;
+    }
+
+    .healthy-ingredients-list li {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .countactContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+        margin: 2rem auto;
+        max-width: 1200px;
+    }
+    .countactTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+
+    .aboutCn {
+    color: #eeeeee;
+}
+
+.aboutCt {
+    color: #00abd5;
+}
+
+.countact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+}
+
+.countact h3, .contact a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.emailAndPhone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer {
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+}
